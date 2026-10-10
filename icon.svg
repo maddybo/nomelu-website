@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Nomelu app icon">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#252e3c"/>
+      <stop offset="1" stop-color="#10151e"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#edf0f4"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe7a2"/>
+      <stop offset="1" stop-color="#ffc868"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="225" fill="url(#background)"/>
+  <!-- Document outline, kept as an editable vector path -->
+  <path d="M340 735 V280 Q340 225 395 225 H575 Q593 225 607 239 L720 352 Q735 367 735 388 V520" fill="none" stroke="url(#paper)" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M340 735 Q340 785 390 785 H535" fill="none" stroke="url(#paper)" stroke-width="70" stroke-linecap="round"/>
+  <!-- Folded corner -->
+  <path d="M610 240 V331 Q610 368 648 368 H719" fill="none" stroke="#e5e8ee" stroke-width="61" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Markdown note lines -->
+  <path d="M445 448 H640 M445 539 H555" fill="none" stroke="#d7dfe9" stroke-width="34" stroke-linecap="round"/>
+  <!-- Completed task -->
+  <path d="M592 679 L643 727 L751 617" fill="none" stroke="url(#gold)" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
